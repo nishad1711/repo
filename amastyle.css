@@ -1,0 +1,311 @@
+ *{
+    margin:0px;
+    font-family: Arial;
+    border:border-box
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 113px;
+    align-items: center;
+}
+.logo{
+    background-image: url("Screenshot\ 2025-01-25\ at\ 4.09.50\ PM.png");
+    background-size:cover ;
+    height: 50px;
+    width: 113px;
+    border: none;
+
+}
+.border{
+    border: 1px transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.deliver{
+    font-size: 11px;
+    color:#cccccc;
+    margin-left: 15px ;
+
+}
+.add-icon{
+    font-size: 17.66px;
+    text-align: center;
+    color: white;
+    display: flex;
+}
+.country{
+    margin-left:3px;
+}
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FF9900;
+    width: 620px;
+    height: 40px;
+    border-radius:4px ;
+    
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+
+
+    
+
+}
+
+.searchicon{
+    height: 45px;
+    background-color: #FF9900;
+    display: flex;
+    justify-content:center ;
+    font-size: 1.2rem;
+    align-items: center;
+    height: 100%;
+    width: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+   
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    
+    
+}
+.navsearch:hover{
+    border:2px solid#FF9900;
+}
+.hello{
+    font-size: 0.7rem;
+    color: #ffffff;   
+}
+.account{
+    font-size: 0.85rem;
+    color: #ffffff;
+    font-weight: 700;  
+}
+.return{
+    font-size: 0.7rem;
+    color: #ffffff;   
+}
+.orders{
+    font-size: 0.85rem;
+    color: #ffffff;
+    font-weight: 700;  
+}
+.cart p{
+    display: inline;
+    font-size:0.6rem ;
+}
+.panel{
+    height:39px;
+    background-color: #222f3d;
+    color:#f0ffff;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.allpanel{
+    
+    color:#f0ffff;
+    margin-right: 20px;
+    margin-left: 70px;
+    font-size: 0.85rem;
+    
+    
+    
+}
+.otherpanel p{
+    color:#f0ffff;
+    display: inline;
+    margin-right: 5px;
+    font-size: 0.85rem;
+}
+.herosection{
+    height: 350px;
+    background-size:cover ;
+    background-image: url("71VcGrxQRBL._SX3000_.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.heromessage{
+    background-color:#f5f6f6 ;
+    color: #0f1111;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.85rem;
+    margin-bottom: 40px;
+    
+    
+}
+.heromessage a{
+    color: #007185;
+}
+.shopsection{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: rgb(232, 125, 161);
+    
+}
+.box{
+    margin: 15px;
+    height: 300px;
+    width: 23%;
+    background-color: #f0ffff;
+    padding: 20px 0px 15px;
+    text-align: center;
+    font-weight: 700;
+}
+.img{
+    height: 280px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0.1rem;
+    margin-bottom:0.0rem ;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    
+}
+.imgb1{
+    
+    background-image:url("Fuji_Desktop_Single_image_EBF_2x_v3._SY608_CB573698005_.jpg") ;
+
+}
+.imgb2{
+    background-image: url("Fuji_Gaming_store_Dashboard_card_2x_EN._SY608_CB564799420_.jpg");
+    
+}
+.imgb3{
+    background-image:url("313wAT6Iy2L._SY320_.jpg") ;
+    
+}
+.imgb4{
+    background-image:url("w184.png") ;
+
+}
+.imgb5{
+    
+    background-image:url("safari-pixel-55-4w-expandable-cabin-suitcase-22-inch-product-images-orvveurzaeb-p604730736-5-202309221059.webp") ;
+    margin-left: 2rem;
+
+}
+.imgb6{
+    background-image: url("istockphoto-1363326235-612x612.jpg");
+    
+}
+.imgb7{
+    background-image:url("close-asian-young-women-look-600nw-2268486933.webp")
+}
+.imgb8{
+    background-image:url("view-electronic-product-balancing-podium_23-2150141321.avif") ;
+    margin-left: 4rem;
+
+}
+.boxcontent{
+    margin-left: 10px;
+    margin-right:10px ;
+}
+.footpanel1{
+    height: 50px;
+    background-color: #37475a;
+    color:#FFFF;
+    display: flex;
+    justify-content: center;
+    
+}
+.footpanel1 p{
+    margin-top: 15px;
+    font-size: 0.85rem;
+}
+.footpanel2{
+    height:400px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.fcont{
+    color:#dddddd;
+    height: 300px;
+    position: relative;
+    margin-top: 40px;
+    
+}
+.cont1{
+    color:#dddddd;
+    height: 300px;
+    
+    
+}
+.fcont p{
+    margin-bottom :5px;
+    align-items: center;
+}
+.footpanel3
+{
+    height:68px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+
+}
+.logof{
+    background-image:url(Screenshot\ 2025-01-25\ at\ 4.09.50\ PM.png) ;
+    background-size: cover ;
+    height:59px;
+    width: 150px;
+    margin-top: 5px;
+    
+}
+.footpanel4{
+    background-color:#131a22;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fcont2{
+    color:#dddddd;
+    height: 300px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.cont5{
+    color:#dddddd;
+    height: 300px;
+}
+.fcont2 p{
+    margin-bottom :70px;
+    align-items: center;
+}
+.footpanel5{
+    background-color: #131a22;
+    color:#dddddd;
+    display: flex;
+    justify-content: center;
+}
